@@ -1,0 +1,37 @@
+{
+  "name": "async-worker-task",
+  "version": "0.0.1",
+  "description": "Typescript-focused async worker",
+  "main": "index.js",
+  "license": "Mine",
+  "scripts": {
+    "test": "karma start"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/karma": "^0.13.36",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "chai": "^4.1.0",
+    "jasmine-core": "^2.6.4",
+    "karma": "^1.7.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-typescript": "^3.0.4",
+    "karma-webpack": "^2.0.4",
+    "ts-loader": "^2.3.1",
+    "typescript": "^2.4.2",
+    "webpack": "^3.3.0"
+  },
+  "dependencies": {
+    "@types/jasmine": "^2.5.53",
+    "@types/lodash": "^4.14.70",
+    "@types/node": "^8.0.14",
+    "@types/stacktrace-js": "^0.0.32",
+    "@types/uuid": "^3.4.0",
+    "fp-ts": "^0.4.0",
+    "lodash": "^4.17.4",
+    "stacktrace-js": "^2.0.0",
+    "uuid": "^3.1.0"
+  }
+}

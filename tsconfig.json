@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "allowJs": false,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "rootDirs": [
+      "src"
+      , ".config-ts"
+      , "test"
+    ],
+    "outDir": "ts_processed",
+    "lib": [
+      "webworker"
+      ,"es6"
+      ,"scripthost"
+    ]
+  },
+  "filesGlob": [
+    ".config-ts/*.ts",
+    "test/*.ts",
+    "src/*.ts",
+    "src/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "node_modules/**/*.d.ts"
+  ],
+  "exclude": [
+    "storybook-ts",
+    "docs", "docs_src",
+    "docs_ts_processed",
+    "node_modules",
+    "!node_modules/rxjs",
+    "reactive-konva",
+    "reactive-konva.d.ts",
+    "tools",
+    "lib",
+    "lib_es6",
+    "examples",
+    "src_old",
+    "webpack",
+    "types"
+  ],
+  "compileOnSave": false,
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}
