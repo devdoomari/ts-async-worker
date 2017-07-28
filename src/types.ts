@@ -13,13 +13,6 @@ export type __ClientStubResultType = {
 export type __ServerStubResultType = {
   __ServerStubResultType: null,
 };
-
-
-/*
-  ServerWorker --> doActualWork (...) ? runWork? runTask? doWork ?
-  ClientStub ----> sendWork( ... ) ?
-*/
-
 export type DoWorkType<
   _TaskName extends string,
   _ArgsType extends BaseArgsType = BaseArgsType,

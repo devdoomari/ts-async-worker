@@ -6,6 +6,7 @@
   "license": "Mine",
   "scripts": {
     "test": "karma start"
+    ,"build": "tsc --project tsconfig.lib.json"
   },
   "devDependencies": {
     "@types/chai": "^4.0.1",

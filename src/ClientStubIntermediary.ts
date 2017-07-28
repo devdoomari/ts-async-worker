@@ -36,6 +36,7 @@ export default class ClientStubIntermediary {
     } else {
       resultHandler.onSuccess(taskResponse.result);
     }
+    delete this.resultHandlerPool[taskResponse.jobId];
   }
   setWorker(worker: Worker) { // needs better 'worker'
     this.worker = worker;
