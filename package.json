@@ -1,5 +1,5 @@
 {
-  "name": "async-worker-task",
+  "name": "ts-async-worker",
   "version": "0.0.1",
   "description": "Typescript-focused async worker",
   "main": "index.js",
