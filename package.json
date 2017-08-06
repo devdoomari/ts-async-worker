@@ -6,9 +6,10 @@
   "module": "lib_es6/index.js",
   "license": "Mine",
   "scripts": {
+    "clean": "rm -rf lib lib_es6 ts_processed",
     "test": "karma start",
     "compile_ts": "tsc --project tsconfig.lib.json",
-    "compile_es6": "babel lib_es6 --outdir lib",
+    "compile_es6": "babel lib_es6 --out-dir lib",
     "copy_dts": "copyfiles -u 1 'lib_es6/**/*.d.ts' lib",
     "build": "npm run compile_ts && npm run compile_es6 && npm run copy_dts"
   },
