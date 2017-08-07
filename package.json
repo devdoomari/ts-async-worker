@@ -2,8 +2,9 @@
   "name": "ts-async-worker",
   "version": "0.0.1",
   "description": "Typescript-focused async worker",
-  "main": "lib/index.js",
-  "module": "lib_es6/index.js",
+  "main": "./lib/index.js",
+  "module": "./lib_es6/index.js",
+  "types": "./lib/index.d.ts",
   "license": "Mine",
   "scripts": {
     "clean": "rm -rf lib lib_es6 ts_processed",
@@ -26,6 +27,7 @@
     "babel-plugin-transform-regenerator": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "chai": "^4.1.0",
+    "fsevents": "^1.1.2",
     "jasmine-core": "^2.7.0",
     "karma": "^1.7.0",
     "karma-jasmine": "^1.1.0",
@@ -50,5 +52,6 @@
     "lodash": "^4.17.4",
     "stacktrace-js": "^2.0.0",
     "uuid": "^3.1.0"
-  }
+  },
+  "peerDependencies": {}
 }
