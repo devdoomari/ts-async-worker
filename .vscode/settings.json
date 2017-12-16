@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "search.exclude": {
+    "**/lib": true,
+    "**/lib_es6": true,
+    "**/node_modules": true,
+    "**/ts_processed": true,
+    "**/bower_components": true
+  }
+}
